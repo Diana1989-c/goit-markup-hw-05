@@ -7,20 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudios</title>
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+  <link rel="stylesheet" href="./css/modern-normalize.css">
 
 </head>
 
 <body>
   <!-- sección Header -->
   <header class="page-header">
+    <a class="logo" href="Webstudio">WebStudio</a>
     <div class="contacts">
       <!-- menu  -->
       <nav>
         <ul class="nav-menu">
-          <li><a class="page current" href="./index.html">Estudio</a></li>
+          <li><a class="page " href="./index.html">Estudio</a></li>
           <li><a class="page " href="./portafolio.html">Portafolio</a></li>
-          <li><a class="page " href="">Contactos</a></li>
+          <li><a class="page " href="./contactos.html">Contactos</a></li>
           <li></li>
           <li></li>
           <li>
@@ -62,7 +63,7 @@
               </svg>
             </div>
 
-            <h3 class="title">atención a nuestros detalles</h3>
+            <h3 class="title">atención a los detalles</h3>
             <p class="description">Nos adentramosen todos los detalles y procesos de su negocio, para asi desarrollar
               una solución a su medida</p>
           </li>
@@ -100,7 +101,7 @@
               </svg>
             </div>
 
-            <h3 class="title">Tecnología moderada</h3>
+            <h3 class="title">Tecnología moderna</h3>
             <p class="description">usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de
               simplificar los procesos
               laborales.
@@ -114,20 +115,27 @@
     <section class="section what-we-do-section">
       <h2>A qué nos dedicamos</h2>
       <div class="container">
-
         <!-- imagenes  -->
-        <class="container">
-          <ul>
-            <li>
-              <img src="./images/image1.jpg" alt="Desktop Apps" width="370" />
-            </li>
-            <li>
-              <img src="./images/image2.jpg" alt="Mobile Apps" width="370" />
-            </li>
-            <li>
-              <img src="./images/image3.jpg" alt="Design & solutions" width="370" />
-            </li>
-          </ul>
+        <ul>
+          <li>
+            <img src="./images/image1.jpg" alt="Desktop Apps" width="370" />
+            <div class="info">
+              <p class="color-info">APLICACIONES DE ESCRITORIO</p>
+            </div>
+          </li>
+          <li>
+            <img src="./images/image2.jpg" alt="Mobile Apps" width="370" />
+            <div class="info">
+              <p class="color-info">APLICACIONES MÓVILES</p>
+            </div>
+          </li>
+          <li>
+            <img src="./images/image3.jpg" alt="Design & solutions" width="370" />
+            <div class="info">
+              <p class="color-info">SOLUCIONES DE DISEÑO</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -284,53 +292,57 @@
     </section>
 
     <!--clientes-->
-    <section class="customer">
+    <section>
+      <div  class="customer">
+      <div class="clientes">
       <h2>Clientes regulares</h2>
-      <div class="container-customer">
-        <!--company-->
-          <div class="logo">
-            <a href="#">
-              <svg class="icon-logo">
-                <use href="./images/SVG/sprite-sheet.svg#icon-Logo1"></use>
-              </svg>
-            </a>
-          </div>
-          <div class="logo">
-            <a href="#">
-              <svg class="icon-logo">
-                <use href="./images/SVG/sprite-sheet.svg#icon-Logo2"></use>
-              </svg>
-            </a>
-          </div>
-          <div class="logo">
-            <a href="#">
-              <svg class="icon-logo">
-                <use href="./images/SVG/sprite-sheet.svg#icon-Logo3"></use>
-              </svg>
-            </a>
-          </div>
-          <div class="logo">
-            <a href="#">
-              <svg class="icon-logo">
-                <use href="./images/SVG/sprite-sheet.svg#icon-Logo4"></use>
-              </svg>
-            </a>
-          </div>
-          <div class="logo">
-            <a href="#">
-              <svg class="icon-logo">
-                <use href="./images/SVG/sprite-sheet.svg#icon-Logo5"></use>
-              </svg>
-            </a>
-          </div>
-          <div class="logo">
-            <a href="#">
-              <svg class="icon-logo">
-                <use href="./images/SVG/sprite-sheet.svg#icon-Logo6"></use>
-              </svg>
-            </a>
-          </div>
       </div>
+        <!--company-->
+      <div class="container-company">
+        <div class="logo">
+          <a href="#">
+            <svg class="icon-logo">
+              <use href="./images/SVG/sprite-sheet.svg#icon-Logo1"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <svg class="icon-logo">
+              <use href="./images/SVG/sprite-sheet.svg#icon-Logo2"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <svg class="icon-logo">
+              <use href="./images/SVG/sprite-sheet.svg#icon-Logo3"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <svg class="icon-logo">
+              <use href="./images/SVG/sprite-sheet.svg#icon-Logo4"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <svg class="icon-logo">
+              <use href="./images/SVG/sprite-sheet.svg#icon-Logo5"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <svg class="icon-logo">
+              <use href="./images/SVG/sprite-sheet.svg#icon-Logo6"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
     </section>
   </main>
 
@@ -340,8 +352,8 @@
       <address>
         <ul>
           <li>
-            <a class="contact" href="#" target="_blank" rel="noopener noreferrer">Calz. Ticomán 500, Ciudad de
-              México, CDMX, México</a>
+            <a class="contact" href="#" target="_blank" rel="noopener noreferrer">Calz. Ticomán 500, Ciudad de México,
+              CDMX, México</a>
           </li>
           <li>
             <a class="contact" href="mailto:info@example.com">info@example.com</a>

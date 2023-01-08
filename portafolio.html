@@ -7,20 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudios</title>
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+  <link rel="stylesheet" href="./css/modern-normalize.css">
 
 </head>
 
 <body>
   <!-- sección Header -->
   <header class="page-header">
+    <a class="logo" href="WebStudio">WebStudio</a>
     <div class="contacts">
       <!-- menu  -->
       <nav>
         <ul class="nav-menu">
-          <li><a class="page current" href="./index.html">Estudio</a></li>
+          <li><a class="page " href="./index.html">Estudio</a></li>
           <li><a class="page " href="./portafolio.html">Portafolio</a></li>
-          <li><a class="page " href="">Contactos</a></li>
+          <li><a class="page " href="./contactos.html">Contactos</a></li>
           <li></li>
           <li></li>
           <li>
@@ -42,6 +43,7 @@
         </ul>
       </nav>
     </div>
+
   </header>
 
   <main>
@@ -49,7 +51,7 @@
       <div class="container">
         <!-- tabla Menú  -->
         <ul class="menu list">
-          <li><button class="button current" type="button">Todo</button></li>
+          <li><button class="button" type="button">Todo</button></li>
           <li><button class="button" type="button">Sitios-web</button></li>
           <li><button class="button" type="button">Aplicaciones</button></li>
           <li><button class="button" type="button">Diseño</button></li>
@@ -60,9 +62,14 @@
         <ul class="list cards">
           <li>
             <a href="#" class="link">
-              <img src="./images/img_portfolio1.jpg" alt="Tecnoduck Sitio-Web" width="370">
-              <h2 class="portfolio-title">Tecnoduck</h2>
-              <p class="portfolio-text">Sitio-Web</p>
+              <div class="card-image">
+                <img src="./images/img_portfolio1.jpg" alt="Tecnoduck Sitio-Web" width="370">
+                <div class="card-animation">
+                  Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan
+                  esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
+                </div>
+                <h2 class="portfolio-title">Tecnoduck</h2>
+                <p class="portfolio-text">Sitio-Web</p>
             </a>
           </li>
 
