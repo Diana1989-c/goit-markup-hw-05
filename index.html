@@ -50,7 +50,13 @@
     <!-- sección general  -->
     <section class="hero bg-hero">
       <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-      <button class="button-primary" type="button">solicite nuestro servicio</button>
+      <button data-modal-open class="button-primary" type="button">solicite nuestro servicio</button>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="btn-modal" data-modal-close>X</button>
+        </div>
+      </div>
+      <script src="./js/modal.js"></script>
     </section>
     <!-- sección beneficios  -->
     <section class="benefits">
